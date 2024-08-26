@@ -18,8 +18,6 @@ public abstract class Screen extends GuiScreen {
 
         for(Widget widget : getWidgets()) {
             widget.render(mouseX, mouseY);
-            widget.setScreenWidth(this.width);
-            widget.setScreenHeight(this.height);
         }
     }
 
